@@ -52,7 +52,7 @@ int main() {
 	char *DISK_bar = make_bar(DISK_usage[2]);
 
 	printf(
-	"<txt><span foreground=\"%s\">CPU ⚛ %s %.1f%%</span> | "
+	"<txt><span foreground=\"%s\">CPU ⏲  %s %.1f%%</span> | "
 	"<span foreground=\"%s\">Temp 🌡: %.1f°C</span> | "
 	"<span foreground=\"%s\">RAM 🗂 %.1f/%.1fGB %s (%.1f%%)</span> | "
 	"<span foreground=\"%s\">DISK ⛃ %s %.1f/%.1fGB (%.1f%%)</span></txt>",
